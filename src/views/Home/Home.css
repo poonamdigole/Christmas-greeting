@@ -1,0 +1,95 @@
+.greeting-container {
+    border: 1px solid black;
+    padding: 80px 70px 50px 30px;
+    position: relative;
+    width: 48%;
+    height: 330px ;
+    display: block;
+    margin: 2% auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+.input-box{
+    height: 30px;
+    width: 200px;
+    padding: 0 10px;
+    box-shadow: 1px 1px 0px 1px black;
+    border-radius: 5px;
+    font-size: 19px;
+    margin: 10px 23px;
+}
+.input-container {
+    margin: 2% 15%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.heading {
+    text-align: left;
+    color: red;
+    margin-bottom: 40px;
+}
+
+.from-text {
+position: absolute;
+right: 20px;
+bottom: 80px;
+font-size: 20px;
+font-weight: bold;
+}
+
+.wishes {
+    font-size: 20px;
+}
+
+.generate-tagline {
+    text-align: center;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.url {
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: blue;
+    padding: 8px 0;
+    cursor: pointer;
+background-color: rgb(209, 207, 207);
+}
+
+.theme-1 {
+     background-image:url(./../Home/Img/christmas-theme04.jpg);
+     background-size:cover ;
+     color:white ;
+}
+.theme-2 {
+    background-image:url(./../Home/Img/christmas-theme02.jpg);
+    background-size: cover ;
+    color:white ;
+}
+.theme-3 {
+    background-image:url(./../Home/Img/christmas-theme01.jpg);
+    background-size: cover ;
+    color:white ;   
+   
+}
+.theme-4 {
+    background-image:url(./../Home/Img/christmas-theme03.jpg);
+    background-size: cover ;
+    color:white ;
+}
+
+@media screen and (max-width: 768px) {
+    .greeting-container {
+        width: 80%;
+    }
+    .input-box {
+        margin: 20px ;
+        width: 300px;
+    }
+}
